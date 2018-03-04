@@ -13,4 +13,5 @@ RUN apt-get update && \
   mkdir -p /root/.zcash-params /root/.zcash
 COPY root /root
 VOLUME ["/root"]
+EXPOSE 8232
 ENTRYPOINT ["/usr/bin/zcashd", "-printtoconsole"]
