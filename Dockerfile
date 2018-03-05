@@ -1,6 +1,6 @@
 FROM debian:stretch-slim
-MAINTAINER Andrey Andreev <andyceo@yandex.ru> (@andyceo)
-LABEL zcash_version="1.0.12"
+MAINTAINER Anton Bogdanovich <anton@bogdanovich.co> (@bogdanovich)
+LABEL zcash_version="1.0.15"
 RUN apt-get update && \
   apt-get upgrade -y && \
   apt-get install -y --no-install-recommends apt-transport-https gnupg ca-certificates wget && \
